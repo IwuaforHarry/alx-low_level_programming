@@ -6,8 +6,9 @@
 /*main(void) function to generate a random number*/
 /*return (0) after execution*/
 
-/* betty style doc for function main goes there*/
+/* betty style doc for function main(void) goes there*/
 int main(void)
+/*function main(void) to generate a random number*/
 {
 	int n;
 
