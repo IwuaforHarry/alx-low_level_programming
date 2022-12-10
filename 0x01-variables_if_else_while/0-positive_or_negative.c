@@ -7,7 +7,11 @@
  * main- main function to generate a random number
  * description: Outputs relevant strings based on outcomes
  */
-/*return (0) after execution*/
+
+/**
+ * return- (0) after execution
+ * description: returns zero once operation is success
+ */
 
 /* betty style doc for function main(void) goes there*/
 int main(void)
