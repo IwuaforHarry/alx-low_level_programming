@@ -1,11 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
-/* more headers go everywhere */
-/* betty style doc for function main goes there */
-int main(void) /* comapre a number and return a string */
+/** 
+* main function to generate a random number
+* Return after execution 
+*/
+int main(void)
 {
 	int n;
+
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
