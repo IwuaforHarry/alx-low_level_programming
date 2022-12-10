@@ -3,12 +3,12 @@
 #include<time.h>
 /*more headers go everywhere*/
 /* betty style doc for function main goes there */
-/*main(void) function to generate a random number*/
+/*main: main function to generate a random number*/
 /*return (0) after execution*/
 
 /* betty style doc for function main(void) goes there*/
 int main(void)
-/*function main(void) to generate a random number*/
+/*main: function main(void) to generate a random number*/
 {
 	int n;
 
