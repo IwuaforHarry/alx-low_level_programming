@@ -3,9 +3,9 @@
 #include<time.h>
 /*more headers go everywhere*/
 /* betty style doc for function main goes there */
-/*main function to generate a random number*/
+/*main(void) function to generate a random number*/
 /*return (0) after execution*/
-int main(void)
+int main(void) /*main (void) function to generate a random number*/
 {
 	int n;
 
