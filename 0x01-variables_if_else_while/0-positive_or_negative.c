@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
-/** 
-* main function to generate a random number
-* Return after execution 
-*/
+/*more headers go everywhere*/
+/* betty style doc for function main goes there */
+/*main function to generate a random number*/
+/*return (0) after execution*/
 int main(void)
 {
 	int n;
