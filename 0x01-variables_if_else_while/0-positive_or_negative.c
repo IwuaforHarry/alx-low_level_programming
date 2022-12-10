@@ -3,10 +3,11 @@
 #include<time.h>
 /* more headers go everywhere */
 /* betty style doc for function main goes there */
-int main (void) /* comapre a number and return a string */
+int main(void) /* comapre a number and return a string */
 {
 	int n;
 	srand(time(0));
+
 	n = rand() - RAND_MAX / 2;
 
 	/* My code starts here*/
@@ -22,5 +23,5 @@ int main (void) /* comapre a number and return a string */
 	{
 		printf("%d is negative\n", n);
 	}
-	return(0);
+	return (0);
 }
