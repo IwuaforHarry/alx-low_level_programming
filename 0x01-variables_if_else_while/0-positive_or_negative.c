@@ -5,7 +5,9 @@
 /* betty style doc for function main goes there */
 /*main(void) function to generate a random number*/
 /*return (0) after execution*/
-int main(void) /*main (void) function to generate a random number*/
+
+/* betty style doc for function main goes there*/
+int main(void)
 {
 	int n;
 
