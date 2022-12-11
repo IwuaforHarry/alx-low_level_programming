@@ -1,6 +1,6 @@
 #include<stdio.h>
-/**i
- * main(void): to print using the function puts
+/*
+ * main - (void) to print using the function puts
  *
  * Retun: 0 is a success
 */
