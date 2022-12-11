@@ -9,13 +9,13 @@ int main(void)
 	char A_Char;
 	int B_Int;
 	long int C_LInt;
-	long long int D_LLInt;
+	long long int DInt;
 	float F_Float;
 
-	printf("Char size is: %lu Byte(s)\n", (unsigned long)sizeof(A_Char));
-	printf("Int size is: %lu Byte(s)\n", (unsigned long)sizeof(B_Int));
-	printf("Long Int size is: %luByte(s)\n", (unsigned long)sizeof(C_LInt));
-	printf("Very Long Int size is: %luByte(s)\n", (unsigned long)sizeof(D_LLInt));
-	printf("Float size is: %luByte(s)\n", (unsigned long)sizeof(F_Float));
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(A_Char));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(B_Int));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(C_LInt));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(DInt));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(F_Float));
 	return (0);
 }
