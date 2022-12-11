@@ -1,6 +1,6 @@
 #include<stdio.h>
 /*
- * main- main(void) to print a string character using the function puts
+ * main(void) - to print a string character using the function puts
  *
  * Retun: 0 is a success
 */
