@@ -1,19 +1,13 @@
-#include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
 /*more headers go everywhere*/
-/* betty style doc for function main goes there */
-/**
- * main- main function to generate a random number
- * description: Outputs relevant strings based on outcomes
- */
+#include<stdio.h>
 
 /**
- * return- (0) after execution
- * description: returns zero once operation is success
- */
-
-/* betty style doc for function main(void) goes there*/
+* main -main function to print a set of strings
+*
+* Return: return (0) when successful
+*/
 int main(void)
 {
 	int n;
@@ -22,7 +16,7 @@ int main(void)
 
 	n = rand() - RAND_MAX / 2;
 
-	/* My code starts here*/
+	/* conditional if statements with corresponding outputs*/
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
