@@ -2,7 +2,7 @@
 /**
  * main -print using the function puts
  *
- * Retun: 0 is a success
+ * Retun: 0
 */
 int main(void)
 {
