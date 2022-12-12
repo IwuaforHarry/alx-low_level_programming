@@ -3,7 +3,7 @@
 /**
 * main -C program that prints a predefined string
 *
-* Return: return (1) when successful
+* Return: return (0) when successful
 */
 
 int main(void)
