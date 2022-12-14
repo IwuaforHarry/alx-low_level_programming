@@ -12,9 +12,13 @@ void print_alphabet_x10(void)
 	Ozi = 0;
 	while (Ozi < 10)
 	{
-		for (Harold = 'a'; Harold <= 'z'; Harold++)
-			_putchar(Harold);
-	}
+		Harold = 'a';
+		while (Harold <= 'z')
+		{
+		_putchar(Harold);
+		Harold++;
+		}
 	_putchar('\n');
 	Ozi++;
+	}
 }
