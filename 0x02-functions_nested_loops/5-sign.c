@@ -5,7 +5,7 @@
  * Return: return 1, 0 or -1 signs accordingly
 */
 
-int main(void)
+int print_sign(void);
 {
 	int n;
 
