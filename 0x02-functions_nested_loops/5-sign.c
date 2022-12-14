@@ -9,9 +9,6 @@ int main(void)
 {
 	int n;
 
-	int count;
-
-	n = count;
 	if (n > 0)
 	{
 		_putchar('+');
