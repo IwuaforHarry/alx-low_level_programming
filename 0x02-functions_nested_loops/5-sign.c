@@ -1,14 +1,12 @@
 #include "main.h"
 /**
- * main -program that prints different signs
- *
+ * print_sign -program that prints different signs
+ *@n: signs to be printed for each iteration
  * Return: return 1, 0 or -1 signs accordingly
 */
 
-int print_sign(void);
+int print_sign(int n)
 {
-	int n;
-
 	if (n > 0)
 	{
 		_putchar('+');
