@@ -2,14 +2,13 @@
 /**
  *_islower - program to print lower case letters
  *
+ *@c: is to be checked or verified
  * Return: return 1 when successful otherwise return 0
 */
 
-int _islower(void)
+int _islower(int c)
 {
-	int Harry;
-
-	if (Harry >= 'a' && Harry <= 'z')
+	if (c >= 'a' && c <= 'z')
 		return (1);
 	else
 		return (0);
