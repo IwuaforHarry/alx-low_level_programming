@@ -3,32 +3,33 @@
 /**
  * rev_string - A function to print strings in reverse
  * @s: pointer to the string
- * Return: retuin void when complete
+ * Return: return void when complete
  */
 
 void rev_string(char *s)
 {
-	int a;
-	int b;
-	int c;
-	int Didi;
+	int i;
+	int j;
+	int k;
+	int tmp;
 
-	a = 0;
+	i = 0;
 
-	while (s[a] != '\0')
+	while (s[i] != '\0')
 	{
-		a++;
+		i++;
 	}
-	c = 0;
 
-	b = a - 1;
+	k = 0;
 
-	while (c < b)
+	j = i - 1;
+
+	while (k < j)
 	{
-		Didi = s[c];
-		s[c] = s[b];
-		s[b] = Didi;
-		c++;
-		b++;
+		tmp = s[k];
+		s[k] = s[j];
+		s[j] = tmp;
+		k++;
+		j++;
 	}
 }
