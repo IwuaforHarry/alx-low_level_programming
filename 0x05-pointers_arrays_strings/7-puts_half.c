@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 
 /**
  * puts_half -function to print half a string followe by newline
